@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CaQ3</title>
+    <style>
+        .rect{
+    width: 223px;
+    height: 192px;
+    border-style: outset;
+  border-width: 7px;
+  border-color: rgb(177, 168, 165);
+    
+  }
+
+   /*.digit1:hover,.digit2:hover,.digit3:hover,.digit4:hover,.digit5:hover,.digit6:hover {
+    transition-delay: 1s;
+  transform: scale(1.1);  (150% zoom)*/
+
+  .digit1{
+      font-size: xx-large; 
+      text-align: center;
+    width: 50px;
+    height: 70px;
+    margin: 10px;
+    border: 1px solid black;
+    position: absolute;
+    border-style: outset;
+  border-width: 7px;
+  border-color: rgb(177, 168, 165);
+  }
+
+  .digit2{
+    font-size: xx-large;
+    text-align: center;
+    width: 50px;
+    height: 70px;
+    margin-left: 80px;
+    margin-top: 10px;
+    position:absolute;
+    border-style: outset;
+  border-width: 7px;
+  border-color: rgb(177, 168, 165);
+  }
+
+  .digit3{
+    font-size: xx-large;
+    text-align: center;
+    width: 50px;
+    height: 70px;
+    margin-left: 150px;
+    margin-top: 10px;
+    position:absolute;
+    border-style: outset;
+  border-width: 7px;
+  border-color: rgb(177, 168, 165);
+  }
+
+  .digit4{
+    font-size: xx-large;
+      text-align: center;
+    width: 50px;
+    height: 70px;
+    margin: 99px 0 10px 10px;
+    border-style: outset;
+  border-width: 7px;
+  border-color: rgb(177, 168, 165);
+    position: absolute;
+  }
+
+  .digit5{
+    font-size: xx-large;
+      text-align: center;
+    width: 50px;
+    height: 70px;
+    margin: 99px 0 10px 80px;
+    border-style: outset;
+  border-width: 7px;
+  border-color: rgb(177, 168, 165);
+    position: absolute;
+  }
+
+  .digit6{
+    font-size: xx-large;
+      text-align: center;
+    width: 50px;
+    height: 70px;
+    margin: 99px 0 10px 150px;
+    border-style: outset;
+  border-width: 7px;
+  border-color: rgb(177, 168, 165);
+    position: absolute;
+  }
+
+    </style>
+
+     
+</head>
+<body>
+    
+    <div class="rect">
+        <div class="digit1">1</div>
+        <div  class="digit2">2</div>
+        <div class="digit3">3</div>
+        <div  class="digit4">4</div>
+        <div  class="digit5">5</div>
+        <div class="digit6">6</div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        
+      $(document).ready(function(){
+        $(".digit1").mouseover(function(){
+          console.log("rn");
+          $(this).css({"transition-delay":"2s","transform":"scale(1.1)"});
+        });
+        $(".digit1").mouseleave(function(){
+          console.log("rn");
+          $(this).css({"transition-delay":"0s","transform":"scale(1,1)"});
+        });
+       
+
+      });
+
+      $(document).ready(function(){
+        $(".digit2").mouseover(function(){
+          console.log("rn");
+          $(this).css({"transition-delay":"2s","transform":"scale(1.1)"});
+        });
+        $(".digit2").mouseleave(function(){
+          console.log("rn");
+          $(this).css({"transition-delay":"0s","transform":"scale(1,1)"});
+        });
+       
+
+      });
+      $(document).ready(function(){
+        $(".digit3").mouseover(function(){
+          console.log("rn");
+          $(this).css({"transition-delay":"2s","transform":"scale(1.1)"});
+        });
+        $(".digit3").mouseleave(function(){
+          console.log("rn");
+          $(this).css({"transition-delay":"0s","transform":"scale(1,1)"});
+        });
+       
+
+      });
+      $(document).ready(function(){
+        $(".digit4").mouseover(function(){
+          console.log("rn");
+          $(this).css({"transition-delay":"2s","transform":"scale(1.1)"});
+        });
+        $(".digit4").mouseleave(function(){
+          console.log("rn");
+          $(this).css({"transition-delay":"0s","transform":"scale(1,1)"});
+        });
+       
+
+      });
+      $(document).ready(function(){
+        $(".digit5").mouseover(function(){
+          console.log("rn");
+          $(this).css({"transition-delay":"2s","transform":"scale(1.1)"});
+        });
+        $(".digit5").mouseleave(function(){
+          console.log("rn");
+          $(this).css({"transition-delay":"0s","transform":"scale(1,1)"});
+        });
+       
+
+      });
+      $(document).ready(function(){
+        $(".digit6").mouseover(function(){
+          console.log("rn");
+          $(this).css({"transition-delay":"2s","transform":"scale(1.1)"});
+        });
+        $(".digit6").mouseleave(function(){
+          console.log("rn");
+          $(this).css({"transition-delay":"0s","transform":"scale(1,1)"});
+        });
+       
+
+      });
+
+    </script>
+</body>
+</html>
